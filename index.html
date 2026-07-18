@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Ahmed Taalab — Plastic Surgeon | Transform Your Confidence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo">
+      <div class="logo-mark">T</div>
+      <div class="logo-text">
+        <span class="name">Taalab</span>
+        <span class="role">Plastic Surgeon</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="nav-cta">Book Consultation</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <canvas id="particles-canvas"></canvas>
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-eyebrow" data-aos="fade-up">
+        <i class="fas fa-award"></i>
+        <span>Consultant Plastic Surgeon</span>
+      </div>
+      <span class="typing-text" id="typingText"></span>
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+        Transform Your <span class="highlight">Confidence</span> with Precision & Artistry
+      </h1>
+      <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+        Dr. Ahmed Taalab blends surgical mastery with artistic vision to deliver natural, refined results — helping you become the most confident version of yourself.
+      </p>
+      <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-calendar-check"></i>
+          Book Consultation
+        </a>
+        <a href="#services" class="btn-outline">
+          <i class="fas fa-eye"></i>
+          View Services
+        </a>
+      </div>
+      <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+        <div class="hero-stat">
+          <span class="number" data-count="15">0</span>
+          <span class="label">Years Experience</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number" data-count="5000">0</span>
+          <span class="label">Happy Patients</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number" data-count="20">0</span>
+          <span class="label">Awards Won</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" data-aos="fade-left" data-aos-delay="300">
+      <div class="doctor-frame">
+        <div class="doctor-image">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80" alt="Dr. Ahmed Taalab" onerror="this.src='https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80'">
+        </div>
+        <div class="floating-badge badge-1">
+          <i class="fas fa-certificate"></i>
+          <div class="text">
+            <strong>Board Certified</strong>
+            <span>Plastic Surgery</span>
+          </div>
+        </div>
+        <div class="floating-badge badge-2">
+          <i class="fas fa-star"></i>
+          <div class="text">
+            <strong>4.9 / 5.0</strong>
+            <span>Patient Rating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section about" id="about">
+  <div class="section-container">
+    <div class="about-grid">
+      <div class="about-visual" data-aos="fade-right">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?w=800&q=80" alt="Dr. Ahmed Taalab" onerror="this.src='https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80'">
+        </div>
+        <div class="experience-badge">
+          <div class="num">15+</div>
+          <div class="text">Years of Excellence</div>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-header">
+          <span class="section-eyebrow">About The Doctor</span>
+          <h2 class="section-title">A Vision of <span class="accent">Artistry</span> & Precision</h2>
+        </div>
+        <p class="about-text">
+          Dr. Ahmed Taalab is a distinguished Consultant Plastic Surgeon renowned for his meticulous approach and natural-looking results. With over 15 years of specialized experience, he combines advanced surgical techniques with an artist's eye for proportion and harmony.
+        </p>
+        <p class="about-text">
+          Practicing across Egypt, Kuwait, and Dubai, Dr. Taalab has helped thousands of patients achieve their aesthetic goals through personalized treatment plans tailored to each individual's unique anatomy and desires.
+        </p>
+        <div class="about-stats">
+          <div class="about-stat">
+            <i class="fas fa-user-md icon"></i>
+            <div class="num"><span data-count="5000">0</span><span class="plus">+</span></div>
+            <div class="label">Successful Procedures</div>
+          </div>
+          <div class="about-stat">
+            <i class="fas fa-globe icon"></i>
+            <div class="num"><span data-count="3">0</span></div>
+            <div class="label">Countries Served</div>
+          </div>
+          <div class="about-stat">
+            <i class="fas fa-procedures icon"></i>
+            <div class="num"><span data-count="50">0</span><span class="plus">+</span></div>
+            <div class="label">Procedure Types</div>
+          </div>
+          <div class="about-stat">
+            <i class="fas fa-smile icon"></i>
+            <div class="num">98<span class="plus">%</span></div>
+            <div class="label">Satisfaction Rate</div>
+          </div>
+        </div>
+        <div class="signature">
+          <div class="signature-name">Dr. Ahmed Taalab</div>
+          <div class="signature-info">
+            <div class="name">MD, FACS</div>
+            <div class="role">Consultant Plastic Surgeon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section services" id="services">
+  <div class="section-container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-eyebrow">Our Specialties</span>
+      <h2 class="section-title">Premium <span class="accent">Surgical</span> Services</h2>
+      <p class="section-subtitle">Advanced procedures tailored to enhance your natural beauty with the highest standards of safety and artistry.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-num">01</div>
+        <div class="service-icon"><i class="fas fa-wave-square"></i></div>
+        <h3 class="service-title">Rhinoplasty</h3>
+        <p class="service-desc">Sculpt and refine the nose to harmonize with your facial features, enhancing both aesthetics and function.</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-num">02</div>
+        <div class="service-icon"><i class="fas fa-weight"></i></div>
+        <h3 class="service-title">Liposuction</h3>
+        <p class="service-desc">Remove stubborn fat deposits with precision techniques for a contoured, sculpted silhouette.</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-num">03</div>
+        <div class="service-icon"><i class="fas fa-child"></i></div>
+        <h3 class="service-title">Tummy Tuck</h3>
+        <p class="service-desc">Restore abdominal tone and firmness with advanced abdominoplasty techniques.</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-num">04</div>
+        <div class="service-icon"><i class="fas fa-venus"></i></div>
+        <h3 class="service-title">Breast Augmentation</h3>
+        <p class="service-desc">Enhance volume and shape with personalized implant or fat-transfer techniques.</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-num">05</div>
+        <div class="service-icon"><i class="fas fa-mask"></i></div>
+        <h3 class="service-title">Face Lift</h3>
+        <p class="service-desc">Reverse signs of aging with natural-looking facial rejuvenation and lifting procedures.</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-num">06</div>
+        <div class="service-icon"><i class="fas fa-magic"></i></div>
+        <h3 class="service-title">Total Definer</h3>
+        <p class="service-desc">Comprehensive body contouring combining multiple procedures for total transformation.</p>
+        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="section gallery" id="gallery">
+  <div class="section-container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-eyebrow">Our Work</span>
+      <h2 class="section-title">Gallery of <span class="accent">Transformations</span></h2>
+      <p class="section-subtitle">Witness the artistry and precision behind every procedure through our curated collection.</p>
+    </div>
+    
+    <div class="gallery-grid">
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="0">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" alt="Rhinoplasty result" onerror="this.src='https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80'">
+        <div class="gallery-overlay">
+          <span class="tag">Before / After</span>
+          <h4>Rhinoplasty</h4>
+          <p>Natural nose refinement</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80" alt="Facelift result" onerror="this.src='https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80'">
+        <div class="gallery-overlay">
+          <span class="tag">Before / After</span>
+          <h4>Facelift</h4>
+          <p>Facial rejuvenation</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?w=600&q=80" alt="Liposuction result" onerror="this.src='https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80'">
+        <div class="gallery-overlay">
+          <span class="tag">Before / After</span>
+          <h4>Liposuction</h4>
+          <p>Body contouring</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80" alt="Breast augmentation result" onerror="this.src='https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80'">
+        <div class="gallery-overlay">
+          <span class="tag">Before / After</span>
+          <h4>Breast Augmentation</h4>
+          <p>Enhanced silhouette</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80" alt="Tummy tuck result" onerror="this.src='https://images.unsplash.com/photo-1559599101-f09722fb4948?w=600&q=80'">
+        <div class="gallery-overlay">
+          <span class="tag">Before / After</span>
+          <h4>Tummy Tuck</h4>
+          <p>Abdominal restoration</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80" alt="Total definer result" onerror="this.src='https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&q=80'">
+        <div class="gallery-overlay">
+          <span class="tag">Before / After</span>
+          <h4>Total Definer</h4>
+          <p>Full body transformation</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Before/After slider -->
+    <div class="ba-section">
+      <div class="ba-content" data-aos="fade-right">
+        <div class="section-header">
+          <span class="section-eyebrow">Interactive Showcase</span>
+          <h2 class="section-title">See The <span class="accent">Difference</span></h2>
+        </div>
+        <p class="ba-text">Drag the slider to reveal the remarkable transformations achieved through Dr. Taalab's surgical artistry. Every result is a testament to precision, care, and natural beauty.</p>
+        <ul class="ba-features">
+          <li><i class="fas fa-check-circle"></i> Natural-looking, refined results</li>
+          <li><i class="fas fa-check-circle"></i> State-of-the-art surgical techniques</li>
+          <li><i class="fas fa-check-circle"></i> Personalized treatment approach</li>
+          <li><i class="fas fa-check-circle"></i> Comprehensive aftercare support</li>
+        </ul>
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-calendar-check"></i>
+          Start Your Journey
+        </a>
+      </div>
+      <div class="ba-slider" data-aos="fade-left" id="baSlider">
+        <div class="ba-img ba-after">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80" alt="After">
+        </div>
+        <div class="ba-img ba-before" id="baBefore">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80" alt="Before">
+        </div>
+        <div class="ba-handle" id="baHandle">
+          <div class="ba-handle-circle"><i class="fas fa-exchange-alt"></i></div>
+        </div>
+        <span class="ba-label before">Before</span>
+        <span class="ba-label after">After</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section testimonials" id="testimonials">
+  <div class="section-container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-eyebrow">Patient Stories</span>
+      <h2 class="section-title">What Our <span class="accent">Patients</span> Say</h2>
+      <p class="section-subtitle">Real experiences from individuals who trusted Dr. Taalab with their transformation journey.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="quote-icon">"</div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"Dr. Taalab completely transformed my confidence. His attention to detail and artistic approach gave me results beyond what I imagined. The entire journey felt safe and professional."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">S</div>
+          <div class="author-info">
+            <div class="name">Sarah M.</div>
+            <div class="role">Rhinoplasty Patient</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="quote-icon">"</div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"After years of consideration, I chose Dr. Taalab for my procedure. His expertise and the clinic's care exceeded every expectation. I feel like the best version of myself now."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">A</div>
+          <div class="author-info">
+            <div class="name">Ahmed K.</div>
+            <div class="role">Liposuction Patient</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="quote-icon">"</div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">"From consultation to recovery, every step was handled with utmost professionalism. Dr. Taalab's artistic eye and surgical skill are truly unmatched in the region."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">N</div>
+          <div class="author-info">
+            <div class="name">Noor A.</div>
+            <div class="role">Facelift Patient</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section contact" id="contact">
+  <div class="section-container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-eyebrow">Get In Touch</span>
+      <h2 class="section-title">Book Your <span class="accent">Consultation</span></h2>
+      <p class="section-subtitle">Reach out to any of our clinics across the region. We're here to guide your transformation journey.</p>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3 class="contact-country">Egypt</h3>
+        <a href="tel:+201155559546" class="contact-number">+20 115 555 9546</a>
+        <span class="contact-time">Sun - Fri: 10AM - 8PM</span>
+      </div>
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3 class="contact-country">Kuwait</h3>
+        <a href="tel:96903300" class="contact-number">9690 3300</a>
+        <span class="contact-time">Sat - Thu: 11AM - 7PM</span>
+      </div>
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3 class="contact-country">Dubai</h3>
+        <a href="tel:+971585433131" class="contact-number">+971 58 543 3131</a>
+        <span class="contact-time">Mon - Sat: 10AM - 9PM</span>
+      </div>
+      <div class="contact-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="contact-icon"><i class="fas fa-video"></i></div>
+        <h3 class="contact-country">Online</h3>
+        <a href="tel:+201117575238" class="contact-number">+20 111 757 5238</a>
+        <span class="contact-time">24/7 Available</span>
+      </div>
+    </div>
+    
+    <div class="contact-cta" data-aos="zoom-in">
+      <h3>Follow Dr. Taalab on Social Media</h3>
+      <p>Stay updated with the latest procedures, patient transformations, and educational content. Join our growing community.</p>
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://snapchat.com" target="_blank" class="social-link" aria-label="Snapchat">
+          <i class="fab fa-snapchat-ghost"></i>
+        </a>
+        <a href="https://wa.me/201155559546" target="_blank" class="social-link" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+201155559546" class="social-link" aria-label="Phone">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="logo-mark">T</div>
+          <div class="logo-text">
+            <span class="name">Taalab</span>
+            <span class="role">Plastic Surgeon</span>
+          </div>
+        </a>
+        <p class="footer-about">Transform your confidence with Dr. Ahmed Taalab — where surgical precision meets artistic vision. Serving patients across Egypt, Kuwait, and Dubai.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://snapchat.com" target="_blank" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+          <a href="https://wa.me/201155559546" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+          <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+          <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Rhinoplasty</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Liposuction</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Tummy Tuck</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Breast Augmentation</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Face Lift</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+201155559546"><i class="fas fa-phone"></i> Egypt: +20 115 555 9546</a></li>
+          <li><a href="tel:96903300"><i class="fas fa-phone"></i> Kuwait: 9690 3300</a></li>
+          <li><a href="tel:+971585433131"><i class="fas fa-phone"></i> Dubai: +971 58 543 3131</a></li>
+          <li><a href="tel:+201117575238"><i class="fas fa-video"></i> Online: +20 111 757 5238</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Taalab Plastic Surgeon. All Rights Reserved.</p>
+      <p>Designed with <span class="heart">♦</span> for excellence in care</p>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-btns">
+  <a href="https://wa.me/201155559546" target="_blank" class="float-btn whatsapp" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://snapchat.com" target="_blank" class="float-btn snapchat" aria-label="Snapchat">
+    <i class="fab fa-snapchat-ghost"></i>
+  </a>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
